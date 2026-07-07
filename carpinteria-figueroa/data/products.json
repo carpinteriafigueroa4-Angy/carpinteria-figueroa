@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "name": "Mesa de comedor a medida",
+      "category": "Comedor",
+      "description": "Tablón macizo con veta viva y base de líneas rectas. De 6 a 12 puestos.",
+      "price": "2.800.000",
+      "tag": "Más pedida",
+      "image": "",
+      "woods": ["Nogal cafetero", "Cedro", "Guayacán"]
+    },
+    {
+      "name": "Cama con cabecero tallado",
+      "category": "Alcoba",
+      "description": "Cabecero curvo tallado a mano, estructura reforzada. Sencilla, doble, queen o king.",
+      "price": "2.200.000",
+      "tag": "",
+      "image": "",
+      "woods": ["Nogal cafetero", "Cedro"]
+    },
+    {
+      "name": "Closet empotrado",
+      "category": "Closets y cocinas",
+      "description": "Divisiones internas diseñadas según tu ropa: colgado, cajones y entrepaños.",
+      "price": "3.500.000",
+      "tag": "A medida",
+      "image": "",
+      "woods": ["Guayacán", "Roble"]
+    },
+    {
+      "name": "Escritorio ejecutivo",
+      "category": "Oficina",
+      "description": "Superficie amplia con cajonera lateral y pasacables integrado.",
+      "price": "1.900.000",
+      "tag": "",
+      "image": "",
+      "woods": ["Guayacán", "Nogal cafetero"]
+    },
+    {
+      "name": "Cocina integral en madera",
+      "category": "Closets y cocinas",
+      "description": "Módulos altos y bajos, mesón e isla. Herrajes de cierre suave incluidos.",
+      "price": "6.500.000",
+      "tag": "Proyecto grande",
+      "image": "",
+      "woods": ["Roble", "Cedro"]
+    },
+    {
+      "name": "Biblioteca a medida",
+      "category": "Oficina",
+      "description": "Entrepaños ajustables, ideal para muros completos o rincones de lectura.",
+      "price": "1.600.000",
+      "tag": "",
+      "image": "",
+      "woods": ["Nogal cafetero", "Roble"]
+    },
+    {
+      "name": "Silla artesanal (juego x4)",
+      "category": "Comedor",
+      "description": "Espaldar torneado y asiento ergonómico. Combina con cualquier mesa de la línea.",
+      "price": "980.000",
+      "tag": "",
+      "image": "",
+      "woods": ["Cedro", "Guayacán"]
+    },
+    {
+      "name": "Puerta principal tallada",
+      "category": "Closets y cocinas",
+      "description": "Diseño exclusivo tallado a mano, con o sin panel de vidrio templado.",
+      "price": "1.450.000",
+      "tag": "",
+      "image": "",
+      "woods": ["Nogal cafetero", "Guayacán"]
+    }
+  ]
+}

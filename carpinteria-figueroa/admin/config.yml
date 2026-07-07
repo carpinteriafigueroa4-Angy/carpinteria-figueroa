@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Guarda las imágenes que subas aquí, y el sitio las servirá desde /assets/products/
+media_folder: "assets/products"
+public_folder: "assets/products"
+
+collections:
+  - name: "products"
+    label: "Catálogo de productos"
+    files:
+      - file: "data/products.json"
+        label: "Productos de ebanistería"
+        name: "products"
+        fields:
+          - label: "Productos"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.category}}"
+            fields:
+              - { label: "Nombre del producto", name: "name", widget: "string" }
+              - label: "Categoría"
+                name: "category"
+                widget: "select"
+                options: ["Comedor", "Alcoba", "Closets y cocinas", "Oficina"]
+              - { label: "Descripción corta", name: "description", widget: "text" }
+              - { label: "Precio en COP (solo números, ej. 2.800.000)", name: "price", widget: "string", required: false }
+              - { label: "Etiqueta (opcional, ej. 'Más pedida')", name: "tag", widget: "string", required: false }
+              - { label: "Foto del producto", name: "image", widget: "image", required: false }
+              - label: "Maderas disponibles"
+                name: "woods"
+                widget: "list"
+                required: false
+                field: { label: "Madera", name: "wood", widget: "string" }
